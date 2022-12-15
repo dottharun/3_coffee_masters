@@ -33,9 +33,31 @@ body {
 .payment-box {
 	background-color: #eee1d5;
 	border-radius: 10px;
-	margin: 15px auto;
-	width: 95%;
+	margin: 12.5px auto;
+	width: 100%;
 	padding: 10px;
+}
+.menu-box {
+	grid-area: items;
+}
+
+.name-box {
+	grid-area: name;
+}
+
+.payment-box {
+	grid-area: payment;
+}
+
+.box-grid {
+	margin: 30px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	column-gap: 30px;
+	grid-template-areas:
+		"items name"
+		"items payment"
+		"items payment";
 }
 
 .bill-total {
