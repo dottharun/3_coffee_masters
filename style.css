@@ -10,7 +10,18 @@ body {
 }
 
 .navbar {
+	align-items: center;
 	background-color: #43281c;
+	display: flex;
+	justify-content: center;
+	padding: 2px;
+	font-size: 10px;
+}
+
+.brand-logo {
+	display: block;
+	margin: 5px;
+	max-height: 30px;
 }
 
 .brand-name {
@@ -24,6 +35,6 @@ body {
 }
 
 .order-button {
-	/* margin: 0;  Find how to make the button bigger */
+	align-items: center;
 	background-color: #deb993;
 }
