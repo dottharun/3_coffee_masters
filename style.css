@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	border-color: #efefef;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	background-color: #43281c;
+}
+
+.brand-name {
+	color: #fbf2c0;
+}
+
+.menu-box,
+.name-box,
+.payment-box {
+	background-color: #eee1d5;
+}
+
+.order-button {
+	/* margin: 0;  Find how to make the button bigger */
+	background-color: #deb993;
+}
