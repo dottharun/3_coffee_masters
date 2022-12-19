@@ -36,15 +36,11 @@ body {
 	margin: 12.5px auto;
 	width: 100%;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	padding: 10px;
 }
 
 .box-title {
 	color: #946941;
-}
-
-.items-title {
-	padding-left: 10px;
-	padding-top: 10px;
 }
 
 .menu-box {
@@ -54,12 +50,10 @@ body {
 
 .name-box {
 	grid-area: name;
-	padding: 10px;
 }
 
 .payment-box {
 	grid-area: payment;
-	padding: 10px;
 }
 
 .box-grid {
@@ -88,6 +82,11 @@ body {
 .item {
 	display: flex;
 	color: #4c513c;
+	border-bottom: 3px solid #c7996f;
+}
+
+.item:last-child {
+	border: none;
 }
 
 .item-quantity {
