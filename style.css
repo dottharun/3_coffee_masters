@@ -35,7 +35,6 @@ body {
 	border-radius: 10px;
 	margin: 12.5px auto;
 	width: 100%;
-	padding: 10px;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .menu-box {
@@ -44,10 +43,12 @@ body {
 
 .name-box {
 	grid-area: name;
+	padding: 10px;
 }
 
 .payment-box {
 	grid-area: payment;
+	padding: 10px;
 }
 
 .box-grid {
@@ -61,6 +62,44 @@ body {
 		"items payment";
 }
 
+.menu-title {
+	padding-left: 10px;
+}
+
+.items {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	list-style: none;
+}
+
+.item {
+	display: flex;
+}
+
+.item-quantity {
+	width: 10%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.item-content {
+	width: 100%;
+}
+
+.item-ingredients {
+	list-style: none;
+	padding: 0;
+	color: #43281c;
+}
+
+.item-price {
+	width: 20%;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
 .input-group {
 	margin-bottom: 25px;
 	position: relative;
@@ -69,7 +108,7 @@ body {
 .input-box {
 	border-radius: 100px;
 	background-color: #eee1d5;
-	border-color: #43281c;
+	border-color: #caad94;
 	height: 50px;
 }
 
@@ -86,10 +125,12 @@ body {
 #card,
 #name {
 	width: 100%;
+	padding-left: 30px;
 }
 
 #ccv {
 	width: 150px;
+	padding-left: 30px;
 }
 
 .bill-total {
