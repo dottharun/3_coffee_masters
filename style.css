@@ -61,6 +61,37 @@ body {
 		"items payment";
 }
 
+.input-group {
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.input-box {
+	border-radius: 100px;
+	background-color: #eee1d5;
+	border-color: #43281c;
+	height: 50px;
+}
+
+.input-label {
+	background-color: #eee1d5;
+	color: #43281c;
+	font-size: 11px;
+	position: absolute;
+	left: 25px;
+	top: -11px;
+	padding: 0 2px;
+}
+
+#card,
+#name {
+	width: 100%;
+}
+
+#ccv {
+	width: 150px;
+}
+
 .bill-total {
 	align-items: center;
 	margin: 0 auto;
