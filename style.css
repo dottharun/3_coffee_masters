@@ -171,4 +171,10 @@ body {
 	border-radius: 100px;
 	align-items: center;
 	background-color: #deb993;
+	color: #4c513c;
+	font-size: 20px;
+}
+
+.order-button:hover {
+	color: white;
 }
