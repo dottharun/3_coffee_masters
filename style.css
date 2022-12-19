@@ -37,8 +37,19 @@ body {
 	width: 100%;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+.box-title {
+	color: #946941;
+}
+
+.items-title {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
 .menu-box {
 	grid-area: items;
+	margin-bottom: 50px;
 }
 
 .name-box {
@@ -76,6 +87,7 @@ body {
 
 .item {
 	display: flex;
+	color: #4c513c;
 }
 
 .item-quantity {
@@ -91,7 +103,7 @@ body {
 .item-ingredients {
 	list-style: none;
 	padding: 0;
-	color: #43281c;
+	color: #946941;
 }
 
 .item-price {
@@ -108,13 +120,12 @@ body {
 .input-box {
 	border-radius: 100px;
 	background-color: #eee1d5;
-	border-color: #caad94;
 	height: 50px;
 }
 
 .input-label {
 	background-color: #eee1d5;
-	color: #43281c;
+	color: #946941;
 	font-size: 11px;
 	position: absolute;
 	left: 25px;
@@ -124,11 +135,13 @@ body {
 
 #card,
 #name {
+	border-color: #946941;
 	width: 100%;
 	padding-left: 30px;
 }
 
 #ccv {
+	border-color: #946941;
 	width: 150px;
 	padding-left: 30px;
 }
@@ -137,6 +150,7 @@ body {
 	align-items: center;
 	margin: 0 auto;
 	width: 30%;
+	color: #4c513c;
 }
 
 .left {
